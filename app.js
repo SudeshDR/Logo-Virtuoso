@@ -1,21 +1,4 @@
-  // Import the functions you need from the SDKs you need
-  import { initializeApp } from "firebase/app";
-  import { getDatabase, ref, push } from "firebase/database";
-  // TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
 
-// Your web app's Firebase configuration
-const firebaseConfig = {
-  apiKey: "AIzaSyCDQ_G639ccdgNDdZJFHAIQyguilCNAaQA",
-  authDomain: "logo-virtuoso-99556.firebaseapp.com",
-  projectId: "logo-virtuoso-99556",
-  storageBucket: "logo-virtuoso-99556.appspot.com",
-  messagingSenderId: "100946937397",
-  appId: "1:100946937397:web:cdb703dbbbc357a6b4937c"
-};
-
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
 
 var database = firebase.database();
   
